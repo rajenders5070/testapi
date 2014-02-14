@@ -1,0 +1,23 @@
+{
+    "name": "browse/api",
+    "description": "",
+    "authors": [
+        {
+            "name": "rajender",
+            "email": "rajenders@ocodewire.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Browse\\Api\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
